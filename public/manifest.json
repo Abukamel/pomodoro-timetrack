@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+
+  "name": "Pomodoro Time Tracker",
+  "description": "Track JIRA time with Pomodoro",
+  "version": "0.0.1",
+
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_title": "Pomodoro Time Tracker"
+  },
+  "icons": {
+    "16": "logo-small.png",
+    "48": "logo-small.png",
+    "128": "logo-small.png"
+  },
+  "background": {
+    "scripts": ["static/js/background.js"],
+    "persist": true
+  },
+  "permissions": []
+}
